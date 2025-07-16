@@ -6,7 +6,7 @@
 /*   By: mhummel <mhummel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/23 11:06:26 by mhummel           #+#    #+#             */
-/*   Updated: 2025/06/23 11:26:06 by mhummel          ###   ########.fr       */
+/*   Updated: 2025/07/16 12:57:01 by mhummel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int main() {
 	try {
 		AForm* form = intern.makeForm("shrubbery creation", "home");
 		if (form) {
-			Bureaucrat bob("Bob", 140);
+			Bureaucrat bob("Bob", 130);
 			std::cout << *form << std::endl;
 			bob.signForm(*form);
 			bob.executeForm(*form);

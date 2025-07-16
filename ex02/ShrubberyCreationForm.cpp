@@ -6,7 +6,7 @@
 /*   By: mhummel <mhummel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/23 11:04:51 by mhummel           #+#    #+#             */
-/*   Updated: 2025/06/23 11:25:51 by mhummel          ###   ########.fr       */
+/*   Updated: 2025/07/16 12:56:17 by mhummel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,11 +43,11 @@ void ShrubberyCreationForm::execute(Bureaucrat const& executor) const {
 	std::ofstream ofs((target_ + "_shrubbery").c_str());
 	if (!ofs.is_open())
 		return; // Silently fail if file cannot be opened
-	ofs << "      /\\\n"
-		<< "     /  \\\n"
-		<< "    /____\\\n"
-		<< "    |  ||  |\n"
-		<< "    |  ||  |\n"
+	ofs << "       /\\\n"
+		<< "      /  \\\n"
+		<< "     /____\\\n"
+		<< "       ||   \n"
+		<< "       ||   \n"
 		<< "    |______|\n";
 	ofs.close();
 }

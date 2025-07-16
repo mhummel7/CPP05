@@ -6,7 +6,7 @@
 /*   By: mhummel <mhummel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/23 11:06:26 by mhummel           #+#    #+#             */
-/*   Updated: 2025/06/23 11:25:45 by mhummel          ###   ########.fr       */
+/*   Updated: 2025/07/16 12:56:09 by mhummel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 int main() {
 	// Test 1: ShrubberyCreationForm
 	try {
-		Bureaucrat bob("Bob", 140);
+		Bureaucrat bob("Bob", 130);
 		ShrubberyCreationForm shrub("home");
 		std::cout << bob << std::endl << shrub << std::endl;
 		bob.signForm(shrub);
